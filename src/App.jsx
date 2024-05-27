@@ -1,5 +1,5 @@
 import Header from "./component/Header";
-import CoreComponent from "./CoreComponent";
+import CoreComponent from "./component/CoreComponent";
 import { CORE_CONCEPTS } from "./data";
 
 function App() {
