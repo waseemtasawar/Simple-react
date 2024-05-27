@@ -1,3 +1,4 @@
+import "./CoreComponent.css";
 function CoreComponent({ image, description, title }) {
   return (
     <li>
