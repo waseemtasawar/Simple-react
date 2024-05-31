@@ -4,13 +4,13 @@ import "./component/TabButten.css";
 import CoreConcepts from "./component/CoreConcepts";
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <CoreConcepts />
         <Examples />
       </main>
-    </div>
+    </>
   );
 }
 
