@@ -1,9 +1,10 @@
 import React from "react";
 import "./TabButten.css";
-const Tab = ({ children, buttons }) => {
+const Tab = ({ children, buttons, ButtonsConatainer = "menu" }) => {
+  //   const ButtonsConatainer = buttonsContainer;
   return (
     <>
-      <menu>{buttons}</menu>
+      <ButtonsConatainer>{buttons}</ButtonsConatainer>
       {children}
     </>
   );
